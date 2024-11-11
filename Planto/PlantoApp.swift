@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
-
+import SwiftData
 @main
 struct PlantoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartApp()
+            .preferredColorScheme(.dark)
         }
+        .modelContainer(for: Plants.self)
     }
 }
