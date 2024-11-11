@@ -16,9 +16,15 @@ Customize watering schedules and adjust water quantity, you also can choose ligh
 - Room-Based Organization:
 Tag each plant with its location to make it easy to remember where each plant is located, helping users organize care routines by room.
 
-# 🔨Project Structure
+# 🔨Project Structure:
+View
 - StartApp
-- SetReminder
-- EditSetReminder
+- EditPlant
+- EditReminder
 
+Model
+- Plants
+
+ViewModel
+- ReminderViewModel
 
